@@ -5,9 +5,8 @@ import "./index.css";
 
 const App = () => {
 	return(<div>
-	{pngImage}
+		<img src={pngImage} width='50px' height='50px'/>
 		<p>App Here!</p>
-	}
 	</div>)
 }
 
