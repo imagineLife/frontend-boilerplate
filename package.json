@@ -4,6 +4,7 @@
   "description": "A Frontend-BoilerPlate",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open 'Google Chrome'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
     "babel": "^6.23.0",
     "react": "^16.9.0",
     "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
   }
 }
